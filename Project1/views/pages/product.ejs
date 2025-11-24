@@ -1,0 +1,41 @@
+<%- include('../layout/headsection')-%>
+
+<section class="product-section">
+    
+    <h1 class="product-title">Our Products</h1>
+
+    <div class="container">
+        <div class="row g-4">
+
+            <% products.forEach((item) => { %>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+
+                        <img src="<%= item.image %>" alt="<%= item.title %>">
+
+                        <div class="product-card-body">
+                            <h3><%= item.title %></h3>
+
+                            <p class="product-desc">
+                                <%= item.description %>
+                            </p>
+
+                            <p class="product-price">₹<%= item.price %></p>
+
+                            <a href="/product/<%= item.id %>" class="product-btn">
+                                View Details
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            <% }) %>
+
+        </div>
+    </div>
+
+</section>
+
+<%- include('../layout/footer')-%>
