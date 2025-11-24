@@ -3,16 +3,17 @@
 
 
 <h2>Home Page</h2>
-<img src="./img/Home.png">
+<img src="./img/1.png">
 
 <h2>About Page</h2>
-<img src="./img/About.png">
+<img src="./img/2.png">
 
 
 <h2>Product Page</h2>
-<img src="./img/Product.png">
+<img src="./img/3.png">
 
 
 <h2>Contact Page</h2>
-<img src="./img/contact.png">
+<img src="./img/4.png">
+
 
